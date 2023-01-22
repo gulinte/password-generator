@@ -1,0 +1,26 @@
+body {
+  background-image: url("bg-img.PNG");
+  text-align: center;
+  font-family: 'Anybody';
+  font-size: 1.1rem;
+}
+
+#password {
+  display: none;
+}
+
+.rotated-text {
+  transform: rotate(90deg);
+  position: absolute;
+  font-size: 3rem;
+  left: 1370px;
+  top: 315px;
+}
+
+.text {
+  font-size: 4.7rem;
+}
+
+#pswrd {
+  padding-top: 1.24%;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Random Password Generator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" href="pswrd.PNG">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,300;0,400;1,300&family=Edu+NSW+ACT+Foundation&family=Edu+QLD+Beginner&family=Island+Moments&family=Lato&family=Noto+Sans&family=Nunito&family=Poppins&family=Roboto+Mono:ital,wght@0,200;0,400;0,600;1,200&family=Roboto:ital,wght@1,100&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <h1 class="text">Random Password Generator</h1>
+  <div id="password-length">
+    <label for="length">Password Length:</label>
+    <input type="number" id="length" min="4" max="25" value="8">
+  </div>
+  <section id="pswrd">
+
+
+    <button id="generate-password">Generate Password</button>
+  </section>
+  <div id="password">
+    <p>Your new password:</p>
+    <p id="generated-password"></p>
+  </div>
+  <script src="script.js"></script>
+  <p class="rotated-text">@gulinte</p>
+</body>
+
+</html>
